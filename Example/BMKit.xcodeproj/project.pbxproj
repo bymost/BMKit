@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* BMKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69C223427E5838DA261813FC /* BMKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BMKit.podspec; path = ../BMKit.podspec; sourceTree = "<group>"; };
+		69C223427E5838DA261813FC /* BMKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BMKit.podspec; path = ../BMKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		814FD728849131F4DE831169 /* Pods-BMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMKit_Tests/Pods-BMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0ED71CE3500D02590056259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0ED71CE3500D02590056259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C69C71942D91E3F37F0AF1F8 /* Pods-BMKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMKit_Example/Pods-BMKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED1C81C288DF438B5DDC9143 /* Pods_BMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDC59CD15AF9CC518DF964F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDC59CD15AF9CC518DF964F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F2704F2CF5ED30300973C603 /* Pods-BMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMKit_Tests/Pods-BMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

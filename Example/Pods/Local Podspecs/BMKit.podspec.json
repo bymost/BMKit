@@ -1,0 +1,22 @@
+{
+  "name": "BMKit",
+  "version": "0.1.0",
+  "summary": "A short description of BMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bymost/BMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bymost": "zhtibrim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bymost/BMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BMKit/Classes/**/*"
+}

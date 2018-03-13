@@ -1,0 +1,22 @@
+PODS:
+  - BMKit (0.1.0)
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - BMKit (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  BMKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BMKit: 2aebc77dad6ea192149cf81d8be7611db4b96b74
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 4abda4de07f00ea2a4c634a278db451f3051970e
+
+COCOAPODS: 1.4.0

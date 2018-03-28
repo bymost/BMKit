@@ -1,7 +1,7 @@
 {
   "name": "BMKit",
   "version": "0.1.0",
-  "summary": "A short description of BMKit.",
+  "summary": "A personal kit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/bymost/BMKit",
   "license": {
@@ -15,8 +15,20 @@
     "git": "https://github.com/bymost/BMKit.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BMKit/Classes/**/*"
+  "source_files": "BMKit/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.4"
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "Kingfisher": [
+
+    ]
+  }
 }

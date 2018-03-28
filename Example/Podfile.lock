@@ -1,7 +1,13 @@
 PODS:
-  - BMKit (0.1.0)
+  - Alamofire (4.5.1)
+  - BMKit (0.1.0):
+    - Alamofire (~> 4.4)
+    - Kingfisher
+    - SwiftyJSON
+  - Kingfisher (4.2.0)
   - Nimble (7.0.2)
   - Quick (1.2.0)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - BMKit (from `../`)
@@ -13,10 +19,13 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BMKit: 2aebc77dad6ea192149cf81d8be7611db4b96b74
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BMKit: a38fab89c3a7263b8f506de7e6be5fcab78ddfe1
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 4abda4de07f00ea2a4c634a278db451f3051970e
+PODFILE CHECKSUM: 18d7f85f73acefaed6225fa7db07a279eebe8ccc
 
 COCOAPODS: 1.4.0

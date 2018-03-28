@@ -26,7 +26,7 @@ public struct BMCustomError: CustomNSError{
     public private(set) var errorCode: Int = 0
     public var errorUserInfo = [String: Any]()
     public var description: String{
-        return String(format: "error %@[%d]: %@", ZLCustomError.errorDomain, errorCode, errorUserInfo[NSLocalizedDescriptionKey] as? String ?? "nil")
+        return String(format: "error %@[%d]: %@", BMCustomError.errorDomain, errorCode, errorUserInfo[NSLocalizedDescriptionKey] as? String ?? "nil")
     }
     public init(reCode: Int?, reMsg: String?) {
         if let _ = reMsg, let code = reCode{
@@ -54,7 +54,7 @@ public struct BMCustomError: CustomNSError{
                     }
                 }else{
                     message = reMsg ?? "未知错误，请稍候再试"
-                    errCode = ZLError.unknowError.rawValue
+                    errCode = BMError.unknowError.rawValue
                 }
             #endif
             errorCode = errCode
